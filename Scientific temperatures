@@ -1,0 +1,9 @@
+//Problem desc //
+We'll get you familiar with how submitting code to Project Lovelace works by converting some temperatures. Scientists like to use Celsius instead of Fahrenheit but sometimes you're given a temperature in Fahrenheit and you have to convert it to Celsius. It's pretty easy: subtract 32 then multiply by 5/9 or if you like equations
+    C = 5/9(F-32)
+In the code editor try to write a function fahrenheit_to_celsius(F) that converts Fahrenheit to Celsius and we'll test your code when you submit it to make sure you got it right.
+
+
+def fahrenheit_to_celsius(F):
+    C = (F-32) * 5/9
+    return C
